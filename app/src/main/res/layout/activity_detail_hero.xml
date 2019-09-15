@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_hero"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/received_img_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            />
+
+        <TextView
+            android:id="@+id/received_hero_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:text="@string/heroes_name"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            android:textAlignment="center"
+
+            />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/received_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/power"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/received_role"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/role"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bio"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/received_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>
+</ScrollView>
